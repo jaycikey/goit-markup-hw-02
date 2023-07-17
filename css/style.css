@@ -2,7 +2,6 @@
   --dairy: #fcfcfc;
   --white: #ffffff;
   --grey: #2e2f42;
-  --naby-blue-modal: #2e2f42;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
   --light-slat: #8e8f99;
@@ -132,6 +131,9 @@ body {
   background: var(--white);
 }
 
+.main-section {
+  background-color: var(--grey);
+}
 .main-button {
   color: var(--white);
   background: var(--iris);
