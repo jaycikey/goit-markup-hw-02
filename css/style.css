@@ -1,0 +1,138 @@
+:root {
+  --dairy: #ffffff;
+  --white: #fcfcfc;
+  --grey: #2e2f42;
+  --naby-blue-modal: #2e2f42;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --light-slat: #8e8f99;
+  --slate: #434455;
+  --green: #31d0aa;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --iris: #4d5ae5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white);
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+h3 {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+h2 {
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111111111111111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071428571428571;
+  letter-spacing: 1.12px;
+}
+
+.top-line {
+  background: var(--white);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.logo {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.166666666666667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.main-menu .link {
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.main-menu .link:hover,
+.main-menu .link:focus {
+  color: var(--ocean);
+}
+
+.contacts .link {
+  color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--ocean);
+}
+
+.filters-button {
+  color: var(--iris);
+  background: var(--cloud);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.main-section {
+  background: var(--navyblue);
+}
+
+.team {
+  background: var(--cloud);
+}
+
+.team-card {
+  background: var(--white);
+}
+
+.main-section .main-button {
+  color: var(--white);
+  background: var(--iris);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.footer {
+  background: var(--navyblue);
+}
+
+.footer .filters-button:hover,
+.footer .filters-button:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
+
+.footer .footer-text {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
