@@ -79,7 +79,7 @@ body {
 }
 
 .nav-list {
-  color: var(--slate);
+  color: var(--navyblue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -88,6 +88,18 @@ body {
 
 .nav-list:hover,
 .nav-list:focus {
+  color: var(--ocean);
+}
+.contacts-list {
+  color: var(--slate);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list:hover,
+.contacts-list:focus {
   color: var(--ocean);
 }
 
