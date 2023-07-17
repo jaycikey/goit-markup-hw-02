@@ -60,10 +60,6 @@ body {
   list-style-type: none;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .logo {
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
@@ -83,7 +79,7 @@ body {
 }
 
 .nav-list {
-  color: var(--navyblue);
+  color: var(--slate);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -93,6 +89,10 @@ body {
 .nav-list:hover,
 .nav-list:focus {
   color: var(--ocean);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .contacts {
