@@ -25,7 +25,7 @@ body {
   color: var(--slate);
 }
 
-.head3 {
+.head-three {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
@@ -33,7 +33,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.title2 {
+.title-two {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
